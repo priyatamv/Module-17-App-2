@@ -96,31 +96,15 @@ The following encoding techniques were applied to the categorical variables:
 ##### Feature Selection
 An attempt was made to identify the relevant features using the following models.
 * RandomForestRegressor 
-duration: 0.3675454292004441
-age: 0.10983283300055438
-euribor3m: 0.1013542216734454
-job: 0.056128417750817505
-education: 0.0497713783290971
-campaign: 0.04900327539989634
-day_of_week: 0.045286685301516284
-nr.employed: 0.04398382864143474
-marital: 0.027014141951066432
-cons.price.idx: 0.025894502545232213
-cons.conf.idx: 0.02388384351173763
-housing: 0.021268580879660777
-emp.var.rate: 0.019377477580753057
-month: 0.017351179249017256
-loan: 0.014375634527476203
-contact: 0.0109775861948155
-previous: 0.009788585155271071
-poutcome: 0.007162380871569835
-default: 1.823619413093103e-08
-pdays: 0.0
-   ![image info](images/fi.png)
+
+![image info](images/rf.png)
+
+![image info](images/fi.png)
   
 ##### PCA   
 * PCA analysis was conducted on the data set.Here are the results
-Explained Variance Ratios: [0.23089407 0.08173341 0.07852996 0.07309128 0.05912237 0.05567743
+Explained Variance Ratios: 
+[0.23089407 0.08173341 0.07852996 0.07309128 0.05912237 0.05567743
  0.05350809 0.05308467 0.05229882 0.05089786 0.05034266 0.0473635
  0.04274539 0.03128743 0.02146626]
  
@@ -134,21 +118,16 @@ Explained Variance Ratios: [0.23089407 0.08173341 0.07852996 0.07309128 0.059122
 	* Decision Tree Classifier
 	* KNeighbors Classifier
     * Results for various classifiers
-                 Model  Accuracy  Precision    Recall  F1 Score
-0  Logistic Regression  0.907112   0.000000  0.000000  0.000000
-1        Decision Tree  0.905720   0.412698  0.035422  0.065245
-2                  KNN  0.901164   0.405622  0.137602  0.205493
-3                  SVM  0.907112   0.000000  0.000000  0.000000
+
+![image info](images/r1.png)
+
 * Model-Iteration 2: ((With all features from PCA data set)
 	* LogisticRegression
 	* Decision Tree Classifier
 	* KNeighbors Classifier
     * Results for various classifiers
-                 Model  Accuracy  Precision    Recall  F1 Score
-0  Logistic Regression  0.914325   0.585075  0.267030  0.366698
-1        Decision Tree  0.904708   0.478842  0.292916  0.363483
-2                  KNN  0.910656   0.537037  0.276567  0.365108
-3                  SVM  0.907112   0.000000  0.000000  0.000000
+
+![image info](images/r1.png)
   
 ##### Deployment
 
