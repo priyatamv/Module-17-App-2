@@ -206,7 +206,7 @@ Evaluate the model using additional metrics such as ROC AUC, confusion matrix, a
 
 ## Link to notebook
 
-https://github.com/priyatamv/ML-Application-1/blob/main/prompt_II.ipynb
+https://github.com/priyatamv/Module-17-App-2/blob/main/application-3.ipynb.ipynb
 
 ## Authors
 
