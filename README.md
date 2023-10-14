@@ -134,11 +134,14 @@ Explained Variance Ratios: [0.23089407 0.08173341 0.07852996 0.07309128 0.059122
 	* Decision Tree Classifier
 	* KNeighbors Classifier
     * Results for various classifiers
-                 Model  Accuracy  Precision    Recall  F1 Score
-0  Logistic Regression  0.907112   0.000000  0.000000  0.000000
-1        Decision Tree  0.905720   0.412698  0.035422  0.065245
-2                  KNN  0.901164   0.405622  0.137602  0.205493
-3                  SVM  0.907112   0.000000  0.000000  0.000000
+| Model               | Accuracy | Precision | Recall  | F1 Score
+|---------------------|----------|-----------|-------- |----------
+| Logistic Regression | 0.907112 | 0.000000 | 0.000000 | 0.000000
+| Decision Tree       | 0.905720 | 0.412698 | 0.035422 | 0.065245
+| KNN		      | 0.901164 | 0.405622 | 0.137602 | 0.205493
+| SVM       	      | 0.907112 | 0.412698 | 0.035422 | 0.000000
+
+
 * Model-Iteration 2: ((With all features from PCA data set)
 	* LogisticRegression
 	* Decision Tree Classifier
