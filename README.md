@@ -1,7 +1,5 @@
 # Predict if the client will subscribe a term deposit
 
-This data study examines a vehicle dataset and derives the features that influence the price of a car
-
 ## Description
 
 The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit.
